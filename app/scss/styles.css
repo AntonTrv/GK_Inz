@@ -254,7 +254,13 @@ nav ul:nth-child(2) {
 
 @media (min-width: 1600px) {
 		.text-item-container .text-item {
-				width: 16.75em;
+				width: 19.75em;
+		}
+}
+
+@media (min-width: 1848px) {
+		.text-item-container .text-item {
+				width: 24.75em;
 		}
 }
 
@@ -646,7 +652,7 @@ nav ul:nth-child(2) {
 
 #bottom-container #bottom-text-container #bottom-info-container p {
 		line-height: 1.5;
-		width: 61.9%;
+		width: 67%;
 }
 
 @media (max-width: 599px) {
