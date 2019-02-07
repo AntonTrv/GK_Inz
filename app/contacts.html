@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="scss/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500,700" rel="stylesheet">
+    <!--jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>ГК Инжзащита контакты</title>
+  </head>
+  <body>
+
+                <div id="mobileMenu">
+                  <button><img src="img/close.svg" alt=""></button>
+                  <ul>
+                    <li><a href="about.html">о компании</a></li>
+                    <li><a href="services.html">услуги</a></li>
+                    <li><a href="projects.html">проекты</a></li>
+                    <li><a href="partners.html">партнеры</a></li>
+                    <li><a href="contacts.html">контакты</a></li>
+                  </ul>
+                </div>
+
+        <nav>
+            <ul>
+              <li>
+              <a href="main.html"><img src="img/white.svg"></a></li>
+             <li><button id="burger"><img src="img/menu.svg" alt="burger"></button></li>
+            </ul>
+            <ul>
+              <li><a href="about.html">О компании</a></li>
+              <li><a href="services.html">Услуги</a></li>
+              <li><a href="projects.html">Проекты</a></li>
+              <li><a href="partners.html">Партнеры</a></li>
+            </ul>
+            <ul>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+
+
+          </nav>
+        <main  id="mainBg">
+          <div id="contacts-wrapper">
+            <div id="envelope"><img src="img/envelope.svg" alt="envelope"></div>
+            <div id="form-wrapper">
+              <h1>Контакты</h1>
+
+            <div id="form-inner-wrapper">
+
+
+          <form id="feedback">
+
+            <!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Шишин двор">
+		<input type="hidden" name="admin_email" value="abtsochi@gmail.com">
+		<input type="hidden" name="form_subject" value="Обращение клиента через форму сайта.">
+		<!-- END Hidden Required Fields -->
+
+          <h2>Напишите нам</h2>
+          <input id="name-email" type="text" name="name" placeholder="Контактное лицо" required/>
+          <input id="name-email" type="text" name="email" placeholder="Электронная почта" required/>
+          <textarea style="resize: none;" id="name-email" cols="1" rows="1" name="message" placeholder="Текст письма" required></textarea>
+          <input id="submit-btn" type="submit" value="Отправить"/>
+          </form>
+
+          <div id="contacts">
+            <div id="address">
+              <h3>Адрес</h3>
+              <p>354055,
+                  Краснодарский край,<br>
+                  г. Сочи, ул. Пластунская 202
+                  </p>
+            </div>
+            <div id="telephone">
+              <h3>Телефон</h3>
+              <p>+7(918)205-97-84</p>
+            </div>
+            <div id="email">
+              <h3>Email</h3>
+              <p>68744@mail.ru</p>
+            </div>
+          </div>
+          </div>
+
+
+            </div>
+          </div>
+        </main>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
