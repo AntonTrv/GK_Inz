@@ -1009,6 +1009,7 @@ video{
                   border-right: none;
                   border-bottom: 1px solid $grey;
                   transition: all .3s ease-in-out;
+                  font-family: $font;
                   opacity: 1;
                   &:focus {
                     outline: none;
@@ -1167,7 +1168,7 @@ video{
 }
 
 #picture-about {
-  background: url('../img/bg-main4.png') no-repeat;
+  background: url('../img/about-main.png') no-repeat;
   background-size: cover;
   height: em(550);
   width: 87%;
@@ -1532,7 +1533,7 @@ video{
 }
 
 #about-numbers-img {
-  background: url('../img/bg-main1.png') no-repeat;
+  background: url('../img/about-second.jpeg') no-repeat;
   background-size: cover;
   height: em(512);
   width: 35.8%;
@@ -1970,9 +1971,23 @@ margin: auto;
   opacity: 0.5;
 }
 .project-item-img {
-  background: url('../img/bg-main1.png') no-repeat;
-  background-size: cover;
   width: 26.2%;
+}
+
+#university {
+  background: url('../img/olympic-university.jpg') no-repeat;
+  background-size: cover;
+  background-position-x: -5em;
+}
+
+#olympic-road {
+  background: url('../img/olympic-road.webp') no-repeat;
+  background-size: cover;
+}
+
+#olympic-park {
+  background: url('../img/olympic-park.jpg') no-repeat;
+  background-size: cover;
 }
 //partners
 

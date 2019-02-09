@@ -1146,6 +1146,7 @@ video {
 		border-right: none;
 		border-bottom: 1px solid #d8d8d8;
 		transition: all .3s ease-in-out;
+		font-family: "IBM Plex Mono", monospace;
 		opacity: 1;
 }
 
@@ -1358,7 +1359,7 @@ video {
 }
 
 #picture-about {
-		background: url("../img/bg-main4.png") no-repeat;
+		background: url("../img/about-main.png") no-repeat;
 		background-size: cover;
 		height: 34.375em;
 		width: 87%;
@@ -1882,7 +1883,7 @@ video {
 }
 
 #about-numbers-img {
-		background: url("../img/bg-main1.png") no-repeat;
+		background: url("../img/about-second.jpeg") no-repeat;
 		background-size: cover;
 		height: 32em;
 		width: 35.8%;
@@ -2460,9 +2461,23 @@ video {
 }
 
 .project-item-img {
-		background: url("../img/bg-main1.png") no-repeat;
-		background-size: cover;
 		width: 26.2%;
+}
+
+#university {
+		background: url("../img/olympic-university.jpg") no-repeat;
+		background-size: cover;
+		background-position-x: -5em;
+}
+
+#olympic-road {
+		background: url("../img/olympic-road.webp") no-repeat;
+		background-size: cover;
+}
+
+#olympic-park {
+		background: url("../img/olympic-park.jpg") no-repeat;
+		background-size: cover;
 }
 
 #partners-main {
