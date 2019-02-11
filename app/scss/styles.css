@@ -2470,14 +2470,32 @@ video {
 		background-position-x: -5em;
 }
 
-#olympic-road {
-		background: url("../img/olympic-road.webp") no-repeat;
+#olympic-village {
+		background: url("../img/olympic-village.webp") no-repeat;
 		background-size: cover;
 }
 
 #olympic-park {
 		background: url("../img/olympic-park.jpg") no-repeat;
 		background-size: cover;
+}
+
+#olympic-road-tramp {
+		background: url("../img/olympic-road-tramp.jpg") no-repeat;
+		background-size: cover;
+		background-position-x: -6em;
+}
+
+#olympic-road-carousel {
+		background: url("../img/olympic-road-carousel.jpg") no-repeat;
+		background-size: cover;
+		background-position-x: -12em;
+}
+
+#olympic-monitoring {
+		background: url("../img/olympic-monitoring.png") no-repeat;
+		background-size: cover;
+		background-position-x: -3em;
 }
 
 #partners-main {
@@ -2664,7 +2682,7 @@ video {
 		margin: auto;
 		margin-right: 60px;
 		min-width: 72.42188%;
-		height: 28.125em;
+		height: 35.125em;
 		background-color: silver;
 		display: flex;
 		overflow: hidden;
@@ -2696,7 +2714,7 @@ video {
 }
 
 .one {
-		background: url("../img/services-slide1@3x.png") no-repeat;
+		background: url("../img/services-slide1@3x.jpg") no-repeat;
 		background-size: cover;
 }
 
@@ -2706,8 +2724,14 @@ video {
 }
 
 .three {
-		background: url("../img/services-slide3@3x.png") no-repeat;
+		background: url("../img/services-slide3@3x.jpg") no-repeat;
 		background-size: cover;
+}
+
+@media (min-width: 1848px) {
+		.three {
+				background-position-y: -5em;
+		}
 }
 
 #services-arrows {
@@ -2819,6 +2843,7 @@ video {
 .img-text img {
 		position: absolute;
 		max-width: 100%;
+		min-width: 40%;
 		top: -10%;
 		transition: all .1s ease-in-out;
 }
@@ -2870,6 +2895,12 @@ video {
 @media (min-width: 600px) and (max-width: 899px) {
 		.services-content-wrapper {
 				width: 100%;
+		}
+}
+
+@media (min-width: 1848px) {
+		.services-content-wrapper {
+				min-height: 40.375em;
 		}
 }
 
@@ -3027,6 +3058,8 @@ video {
 		position: absolute;
 		top: -10%;
 		right: 0;
+		min-width: 40%;
+		max-width: 100%;
 }
 
 @media (max-width: 599px) {
@@ -3104,6 +3137,12 @@ video {
 		#services-articles {
 				max-width: 1600px;
 				margin: auto;
+		}
+}
+
+@media (min-width: 1848px) {
+		#services-articles {
+				max-width: 1920px;
 		}
 }
 

@@ -1980,14 +1980,32 @@ margin: auto;
   background-position-x: -5em;
 }
 
-#olympic-road {
-  background: url('../img/olympic-road.webp') no-repeat;
+#olympic-village {
+  background: url('../img/olympic-village.webp') no-repeat;
   background-size: cover;
 }
 
 #olympic-park {
   background: url('../img/olympic-park.jpg') no-repeat;
   background-size: cover;
+}
+
+#olympic-road-tramp {
+  background: url('../img/olympic-road-tramp.jpg') no-repeat;
+  background-size: cover;
+  background-position-x: -6em;
+}
+
+#olympic-road-carousel {
+  background: url('../img/olympic-road-carousel.jpg') no-repeat;
+  background-size: cover;
+  background-position-x: -12em;
+}
+
+#olympic-monitoring {
+  background: url('../img/olympic-monitoring.png') no-repeat;
+  background-size: cover;
+  background-position-x: -3em;
 }
 //partners
 
@@ -2131,7 +2149,7 @@ position:relative;
   margin: auto;
  margin-right: 60px;
  min-width: per(927);
- height: em(450);
+ height: 35.125em;
  background-color: silver;
  display:flex;
  overflow: hidden;
@@ -2160,7 +2178,7 @@ position:relative;
 }
 
 .one {
-  background: url('../img/services-slide1@3x.png') no-repeat;
+  background: url('../img/services-slide1@3x.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -2170,8 +2188,12 @@ position:relative;
 }
 
 .three {
-  background: url('../img/services-slide3@3x.png') no-repeat;
+  background: url('../img/services-slide3@3x.jpg') no-repeat;
   background-size: cover;
+  @include for-very-big-desktop-up {
+    background-position-y: -5em;
+  }
+
 }
 
 
@@ -2255,9 +2277,13 @@ position:relative;
   @include for-phone-landscape-only {
   margin-bottom: 3em;
   }
+
+
+//FIRST IMAGE
   img {
     position: absolute;
     max-width: 100%;
+    min-width: 40%;
     top: -10%;
     transition: all .1s ease-in-out;
     @include for-phone-only {
@@ -2293,8 +2319,8 @@ position:relative;
   @include for-phone-landscape-only {
   width: 100%;
   }
-  @include for-tablet-landscape-only {
-
+  @include for-very-big-desktop-up {
+    min-height: 40.375em;
   }
 }
 
@@ -2417,10 +2443,13 @@ p {
   @include for-phone-landscape-only {
   margin-bottom: 3em;
   }
+  //SECOND IMAGE
   img {
     position: absolute;
     top: -10%;
     right: 0;
+    min-width: 40%;
+    max-width: 100%;
     @include for-phone-only {
     max-width: 100%;
     position: static;
@@ -2481,6 +2510,10 @@ p {
   @include for-big-desktop-only {
     max-width: 1600px;
     margin: auto;
+  }
+
+  @include for-very-big-desktop-up {
+    max-width: 1920px;
   }
 }
 
