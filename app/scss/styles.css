@@ -2471,7 +2471,7 @@ video {
 }
 
 #olympic-village {
-		background: url("../img/olympic-village.webp") no-repeat;
+		background: url("../img/olympic-village.jpg") no-repeat;
 		background-size: cover;
 }
 
@@ -2493,9 +2493,79 @@ video {
 }
 
 #olympic-monitoring {
-		background: url("../img/olympic-monitoring.png") no-repeat;
+		background: url("../img/olympic-monitoring.jpg") no-repeat;
+		background-size: cover;
+		background-position-x: -9em;
+}
+
+#crate-set {
+		background: url("../img/crate-set.jpg") no-repeat;
 		background-size: cover;
 		background-position-x: -3em;
+}
+
+#laura-substation {
+		background: url("../img/laura-substation.jpg") no-repeat;
+		background-size: cover;
+		background-position-x: -9em;
+}
+
+#snowboard-park {
+		background: url("../img/snowboard-park.jpg") no-repeat;
+		background-size: cover;
+		background-position-x: -3em;
+}
+
+#freestyle-center {
+		background: url("../img/freestyle-center.jpg") no-repeat;
+		background-size: cover;
+}
+
+#meteostation-reconstruction {
+		background: url("../img/meteostation-reconstruction.jpg") no-repeat;
+		background-size: cover;
+		background-position-x: -3em;
+}
+
+#surveys-vishnevaya {
+		background: url("../img/surveys-vishnevaya.jpg") no-repeat;
+		background-size: cover;
+		background-position-x: -9em;
+}
+
+#olympic-bank-protection {
+		background: url("../img/olympic-bank-protection.jpg") no-repeat;
+		background-size: cover;
+		background-position-x: -6em;
+}
+
+#gazprom-road {
+		background: url("../img/gazprom-road.jpg") no-repeat;
+		background-size: cover;
+		background-position-x: -6em;
+}
+
+#rosa-engineering-protection {
+		background: url("../img/rosa-engineering-protection.jpg") no-repeat;
+		background-size: cover;
+		background-position-x: -3em;
+}
+
+#trampoline-complex-engineering {
+		background: url("../img/trampoline-complex-engineering.jpg") no-repeat;
+		background-size: cover;
+		background-position-x: -6em;
+}
+
+#fisht-road {
+		background: url("../img/fisht-road.jpg") no-repeat;
+		background-size: cover;
+}
+
+#akkuju {
+		background: url("../img/akkuju.jpg") no-repeat;
+		background-size: cover;
+		background-position-x: -8em;
 }
 
 #partners-main {
