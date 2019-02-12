@@ -1168,7 +1168,7 @@ video{
 }
 
 #picture-about {
-  background: url('../img/about-main.png') no-repeat;
+  background: url('../img/about-main.jpg') no-repeat;
   background-size: cover;
   height: em(550);
   width: 87%;
@@ -1194,7 +1194,7 @@ video{
   width: 50%;
   margin-left: auto;
   position: relative;
-  top: -13vh;
+  top: -20vh;
   @include for-phone-only {
     width: 100%;
     top: 0;
